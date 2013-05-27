@@ -1,0 +1,8 @@
+production: &production
+  adapter: em_mysql2
+  database: goliathgrape
+  pool: 5
+  username: root
+  password: 
+development:
+  <<: *production
